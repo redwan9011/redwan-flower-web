@@ -55,10 +55,14 @@ header {
     max-width: 100%;
 }
 
+
+/* bonush section styles */
+
 .bonus-section {
     text-align: center;
     padding: 10px 125px;
     margin-top: 100px;
+   margin: auto;
 }
 
 .bonus-section h3 {
@@ -79,7 +83,7 @@ header {
 
 .bonus-image {
     display: flex;
- 
+    justify-content: center;
     
 }
 .bonus-image img{
