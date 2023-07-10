@@ -171,9 +171,9 @@ section {
 
 .hot-deal {
     text-align: center;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 2px 70px;
 }
 
@@ -188,5 +188,110 @@ section {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 16px;
-    margin: 15px 0;  
+    margin: 15px 0;
+}
+
+/* main section start */
+main {
+    padding: 40px 125px 30px 125px;
+}
+
+/* instagram section */
+.instagram-section {
+    text-align: center;
+    margin-top: 70px;
+
+}
+
+.instagram-section h3 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #272727;
+    margin-bottom: 15px;
+}
+
+.instagram-section p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.insta-image {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.insta-image img {
+    width: 200px;
+}
+
+/* latest deals section */
+.latest-deals {
+    margin-top: 60px;
+    text-align: center;
+    background-image: url("./Flower\ Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 20px;
+}
+
+.latest-deals h2 {
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.latest-deals p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 0;
+
+}
+
+.latest-deals .mail {
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 140px;
+    margin-right: 8px;
+}
+
+/* footer style */
+
+footer {
+    background-color: #111010;
+    color: white;
+    text-align: center;
+    padding: 70px 0;
+}
+
+footer h2 {
+    font-weight: 800;
+    font-size: 35px;
+    margin: 15px 0;
+}
+
+footer span {
+    color: #E55473;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+footer small{
+    color: rgba(255, 255, 255, 0.40);
+    font-weight: 400;
+    font-size: 11px;
 }
