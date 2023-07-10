@@ -166,13 +166,15 @@ header {
 /* hot deal */
 section {
     padding: 40px 125px 30px 125px;
+    background-color: rgba(229, 84, 115, 0.05);
 }
 
 .hot-deal {
     text-align: center;
     display: flex;
-    gap: 40px;
+    gap: 60px;
     align-items: center;
+    padding: 0px 70px;
 }
 
 .hot-deal-content h2 {
@@ -186,7 +188,5 @@ section {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 16px;
-    margin: 15px 0;
-
-   
+    margin: 15px 0;  
 }
