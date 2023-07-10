@@ -84,6 +84,8 @@ header {
 .bonus-image {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    align-content: center;
     
 }
 .bonus-image img{
