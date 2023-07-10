@@ -171,9 +171,9 @@ section {
 
 .hot-deal {
     text-align: center;
-    display: flex;
-    gap: 60px;
-    align-items: center;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
     padding: 2px 70px;
 }
 
