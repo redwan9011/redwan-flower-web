@@ -45,7 +45,7 @@ header {
 .btn-pr {
     margin-top: 13px;
     border-radius: 6px;
-    background: #E55473;
+    background-color: #E55473;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -133,7 +133,62 @@ header {
     font-size: 15px;
 
 }
-
+/* bonus part 2 */
+.roses-section{
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin: 50px 0;
+   
+}
+.rose-part{
+    padding: 40px 125px 30px 125px
+}
+.rose-part h2{
+    color: #272727;
+font-size: 30px;
+font-weight: 800;
+margin-bottom: 15px;
+}
+.rose-part > p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.60);
+}
+.rose-image{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+.rose-image img{
+    width: 210px;
+}
+.rose1{
+    width: 210px;
+   
+}
+.rose4{
+    width: 200px;
+    height: 210px;
+}
+.rose-price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.rose-price p{
+    font-size: 20px;
+    font-weight: 700;
+}
+.rose-price small{
+    color: #272727;
+font-weight: 400;
+}
+.rosep{
+    margin-top: 35px;
+}
 /* optional section style */
 .optional-section {
     padding: 40px 125px 30px 125px;
@@ -225,7 +280,7 @@ main {
 
 .insta-image img {
     width: 200px;
-    height: auto;
+    
 }
 
 /* latest deals section */
