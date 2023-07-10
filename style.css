@@ -62,7 +62,7 @@ header {
     text-align: center;
     padding: 10px 125px;
     margin-top: 100px;
-   margin: auto;
+    margin: auto;
 }
 
 .bonus-section h3 {
@@ -72,9 +72,10 @@ header {
     color: #272727;
     margin-bottom: 17px;
     margin-top: 100px;
-    
+
 }
-.bonus-section p{
+
+.bonus-section p {
     color: rgba(39, 39, 39, 0.60);
     font-size: 15px;
     font-weight: 400;
@@ -83,45 +84,108 @@ header {
 }
 
 .bonus-image {
-   display: flex;
-   
-    
+    display: flex;
+
+
 }
-.bonus-image img{
-    width:150px ;
+
+.bonus-image img {
+    width: 150px;
     height: 210px;
 }
 
-.imgb1{
-    width: 280px;
+.imgb1 {
+    width: 250px;
     height: 400px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
 }
-.b-image1{
-    width: 300px ;
-    height: 300px ;
-   display: flex;
-   flex-direction: column;
+
+.b-image1 {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
-.img1{
-     background: rgba(167, 33, 98, 0.15);
-     border-radius: 200px 200px 5px  5px;
+
+.img1 {
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 200px 200px 5px 5px;
 }
-.img2{
-    border-radius: 200px 200px 5px  5px;
+
+.img2 {
+    border-radius: 200px 200px 5px 5px;
     background: rgba(5, 151, 160, 0.15);
 }
-.img3{
-    border-radius: 200px 200px 5px  5px;
+
+.img3 {
+    border-radius: 200px 200px 5px 5px;
     background: rgba(71, 125, 17, 0.15);
 }
-.bonus-image a{
+
+.bonus-image a {
     color: #272727;
     margin-top: 10px;
     font-weight: 700;
     font-size: 15px;
-    
-}   
+
+}
+
+/* optional section style */
+.optional-section {
+    padding: 40px 125px 30px 125px;
+}
+
+.optional {
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 50px 40px;
+    text-align: center;
+
+}
+
+.optional img {
+    width: 80px;
+}
+
+.optional p {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+
+}
+
+/* hot deal */
+section {
+    padding: 40px 125px 30px 125px;
+}
+
+.hot-deal {
+    text-align: center;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.hot-deal-content h2 {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.hot-deal-content p {
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+    margin: 15px 0;
+
+   
+}
