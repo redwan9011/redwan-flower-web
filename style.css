@@ -218,13 +218,14 @@ main {
 
 .insta-image {
     display: flex;
-    justify-content: space-around;
-    gap: 20px;
+    justify-content: space-between;
+    gap: 30px;
     margin-top: 30px;
 }
 
 .insta-image img {
     width: 200px;
+    height: auto;
 }
 
 /* latest deals section */
