@@ -83,7 +83,7 @@ header {
 
 .bonus-image {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     
 }
 .bonus-image img{
