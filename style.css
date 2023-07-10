@@ -1,0 +1,51 @@
+/* common styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* header section styles */
+header {
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    gap: 120px;
+    align-items: center;
+    padding: 30px 125px 0px 125px;
+}
+
+.head-content {
+    text-align: left;
+}
+
+.head-content h1 {
+    font-size: 44px;
+    color: #272727;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.head-content p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 380px;
+    padding: 5px 0;
+}
+
+.btn-pr {
+    margin-top: 13px;
+    border-radius: 6px;
+    background: #E55473;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+
+.head-image img {
+    max-width: 100%;
+}
