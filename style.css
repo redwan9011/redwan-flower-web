@@ -258,11 +258,12 @@ main {
 
 }
 
-.inst-content h2 {
-    font-size: 35px;
+.inst-content h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
     font-weight: 800;
     color: #272727;
-   margin-bottom: 30px;
+  
 }
 
 .instagram-section p {
